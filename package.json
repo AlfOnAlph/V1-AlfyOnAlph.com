@@ -1,0 +1,36 @@
+{
+  "name": "alfonalph.com",
+  "version": "0.9.13",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@alephium/get-extension-wallet": "^1.7.3",
+    "@alephium/web3": "^1.7.3",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "chart.js": "^4.4.7",
+    "ethers": "^5.5.1",
+    "next": "^15.1.2",
+    "nextjs-google-analytics": "^2.3.7",
+    "react": "^18.0.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.0.0",
+    "react-icons": "^5.4.0",
+    "starknet": "^6.11.0",
+    "webamp": "^1.5.0"
+  },
+  "devDependencies": {
+    "@alephium/cli": "^1.7.3",
+    "@types/node": "18.11.18",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "eslint": "8",
+    "eslint-config-next": "13.1.2",
+    "typescript": "^4.9.4"
+  }
+}

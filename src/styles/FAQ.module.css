@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Blank River';
+  src: url('/fonts/VeryPopular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.faqContainer {
+  padding: 50px;
+  border-radius: 8px 8px 0 0; 
+  margin: 20px auto;
+  max-width: 800px;
+  color: #ffffff; 
+  background-size: 4px 4px; 
+  background-position: 0 0, 2px 2px;
+}
+
+
+.faqContainer h2 {
+  font-size: 43px;
+  font-family: 'Very Popular', 'Poppins', sans-serif; 
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  letter-spacing: 2px; 
+  text-shadow: 2px 2px 0px #000; 
+}
+
+.faqItems {
+  display: grid;
+  gap: 20px;
+}
+
+.faqItem {
+  background: rgb(141, 116, 81); 
+  border-radius: 8px 8px 0 0; 
+  box-shadow: 2px 2px 0px #000, inset 0 0 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.faqItem.open {
+  transform: translate(-1px, -1px); 
+  box-shadow: 4px 4px 0px #000, inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  background-color: rgb(121, 96, 61);
+  border: 2px solid #000;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.question:hover {
+  background-color: rgb(141, 116, 81); 
+}
+
+.icon {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff; 
+  text-shadow: 1px 1px 0px #000;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+  padding: 0 20px;
+  background-color: rgb(141, 116, 81); 
+  color: #ffffff; 
+  border-top: 2px solid #000; 
+}
+
+.answer p {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff; 
+  margin: 15px 0;
+  text-shadow: 1px 1px 0px #000;
+}

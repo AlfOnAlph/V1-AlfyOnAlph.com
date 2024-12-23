@@ -1,0 +1,49 @@
+.carouselContainer {
+  width: 100%;
+  overflow: hidden; 
+  position: relative;
+  height: 150px; 
+  display: flex; 
+  justify-content: center; 
+  max-width: 1100px;
+
+}
+
+.carouselImageContainer {
+  display: flex;
+  animation: scrollImages 30s linear infinite;
+  will-change: transform;
+  width: max-content;
+  gap: 10px;
+}
+
+@keyframes scrollImages {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+.carouselImage {
+  height: 100%;
+  width: auto; 
+  object-fit: cover; 
+  border-radius: 8px; 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.carouselImage:hover {
+  transform: scale(1.1); 
+}
+
+@keyframes scrollImages {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-400%); 
+  }
+}

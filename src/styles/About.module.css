@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Very Popular';
+  src: url('/fonts/VeryPopular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.aboutSection {
+  font-family: 'Poppins', sans-serif;
+  border-radius: 13px;
+  background-color: rgba(121, 96, 61, 0.549);
+  margin-top: 35%;
+  margin-bottom: 5%;
+  padding: 2rem;
+  text-align: left;
+  max-width: 1100px;
+}
+
+.aboutSection .title {
+  font-size: 43px;
+  font-family: 'Very Popular', 'Poppins', sans-serif;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 0px #000;
+}
+
+.aboutSection p {
+  font-size: 1.4rem;
+  color: #ffffff;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.aboutSection strong {
+  position: relative;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0 4px;
+}
+
+.aboutSection h2 {
+  color: white;
+  font-size: 20px; 
+}
+
+.blinkingDots {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  display: inline-block;
+  width: 5px;  
+  height: 5px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 4px; 
+  opacity: 0;
+  animation: blink 1.5s infinite;
+}
+
+.dot1 {
+  animation-delay: 0s;
+}
+
+.dot2 {
+  animation-delay: 0.5s;
+}
+
+.dot3 {
+  animation-delay: 1s;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .aboutSection {
+    margin-top: 36%;
+  }
+  .aboutSection .title {
+    font-size: 43px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .aboutSection {
+    margin-top: 35%;
+  }
+}
+
+@media (max-width: 600px) {
+  .aboutSection {
+    margin-top: 50%;
+  }
+}
+
+.toggleButton {
+  text-decoration: none;
+  background-color: rgb(121, 96, 61);
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: block;
+  font-family: 'arial';
+  font-size: 16px;
+  border: 2px solid #000;
+  box-shadow: 2px 2px 0px #000, inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 20%, transparent 20%),
+                    radial-gradient(rgba(0, 0, 0, 0.05) 20%, transparent 20%);
+  background-size: 4px 4px;
+  background-position: 0 0, 2px 2px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.toggleButton:hover {
+  text-decoration: none;
+  transform: scale(1.05);
+  box-shadow: 3px 3px 0px #000, inset 0 0 7px rgba(0, 0, 0, 0.3);
+}
