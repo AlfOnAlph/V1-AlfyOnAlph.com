@@ -9,9 +9,9 @@ interface FAQItem {
 const FAQ: React.FC = () => {
   const faqItems: FAQItem[] = [
     {
-      question: "What is AlfOnAlph dApp?",
+      question: "What is AlfyOnAlph dApp?",
       answer:
-        "AlfOnAlph dApp is a decentralized application built on Alephium blockchain, offering various features such as token management, presale, and more.",
+        "AlfyOnAlph dApp is a decentralized application built on Alephium blockchain, offering various features such as token management, presale, and more.",
     },
     {
       question: "How can I connect my wallet?",

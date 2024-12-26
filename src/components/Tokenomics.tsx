@@ -91,7 +91,7 @@ const TokenomicsChart: React.FC = () => {
       name: "LP + Treasury",
       percentage: 30,
       color: "rgba(255, 193, 7, 1)",
-      description: "7500 ALPH allocated to the pool + 30M ALF tokens.",
+      description: "7500 $ALPH allocated to the pool + 30M $ALFY tokens.",
     },
   ];
 

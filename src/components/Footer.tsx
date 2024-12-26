@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className={styles.footerBottom}>
-          <h3>&copy; 2024 $Alf | AlfOnAlph.com</h3>
+          <h3>&copy; 2024 $ALFY | AlfyOnAlph.com</h3>
           <h1>ℵ</h1>
 
         </div>

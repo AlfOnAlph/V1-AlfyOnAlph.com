@@ -11,19 +11,19 @@ const Roadmap: React.FC = () => {
   const roadmapItems: RoadmapItem[] = [
     {
       title: 'Phase 1: Preparation',
-      description: 'Launch of the $ALF website, setup of social media, Discord community launch, Medium blog launch, and GitHub setup.',
+      description: 'Launch of the $ALFY website, setup of social media, Discord community launch, Medium blog launch, and GitHub setup.',
     },
     {
       title: 'Phase 2: Token Creation',
-      description: 'Development and audit of $ALF contract, tokenomics setup, presale launch, and full transparency.',
+      description: 'Development and audit of $ALFY contract, tokenomics setup, presale launch, and full transparency.',
     },
     {
       title: 'Phase 3: Community Growth',
-      description: 'Memes, collaborations, giveaways, special roles, contests, polls, and positioning $ALF as Alephium’s mascot.',
+      description: 'Memes, collaborations, giveaways, special roles, contests, polls, and positioning $ALFY as Alephium’s mascot.',
     },
     {
       title: 'Phase 4: Expansion & Utilities',
-      description: 'Listing $ALF on DEXs, real-time price tracking, visual guides, interface improvements, and targeted blockchain marketing.',
+      description: 'Listing $ALFY on DEXs, real-time price tracking, visual guides, interface improvements, and targeted blockchain marketing.',
     },
     {
       title: 'Phase 5: Take Control',

@@ -131,19 +131,19 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>AlfOnAlph.com</title>
-        <meta name="description" content="ALF is the vibrant and community-driven mascot symbolizing the rise of Alephium blockchain technology." />
-        <meta name="keywords" content="ALF, Alephium, blockchain, mascot, community, crypto" />
+        <title>AlfyOnAlph.com</title>
+        <meta name="description" content="$ALFY is the vibrant and community-driven mascot symbolizing the rise of Alephium blockchain technology." />
+        <meta name="keywords" content="$ALFY, Alephium, blockchain, mascot, community, crypto" />
         <meta name="author" content="Alephium Community" />
-        <meta property="og:title" content="AlfOnAlph.com" />
-        <meta property="og:description" content="Meet ALF: Alephium’s mascot, powered by the community and representing blockchain innovation." />
+        <meta property="og:title" content="AlfyOnAlph.com" />
+        <meta property="og:description" content="Meet ALFY: Alephium’s mascot, powered by the community and representing blockchain innovation." />
         <meta property="og:image" content="/ALF.jpg" />
-        <meta property="og:url" content="https://alfonalph.com/" />
+        <meta property="og:url" content="https://alfyonalph.com/" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="AlfOnAlph.com" />
-        <meta name="twitter:description" content="ALF is the vibrant mascot of Alephium, driven by the community and symbolizing innovation." />
+        <meta name="twitter:title" content="AlfyOnAlph.com" />
+        <meta name="twitter:description" content="ALFY is the vibrant mascot of Alephium, driven by the community and symbolizing innovation." />
         <meta name="twitter:image" content="/ALF.jpg" />
-        <meta name="twitter:url" content="https://x.com/AlfOnAlph" />
+        <meta name="twitter:url" content="https://x.com/AlfyOnAlph" />
         <link rel="icon" href="/favicon.ico" />
       
         <link rel="manifest" href="/manifest.json" />
